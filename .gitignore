@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# dotenv
+.env
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Output from tsx (if any temp files are produced)
+*.temp.*
+*.tmp.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: VSCode settings
+.vscode/
+
+# Optional: pnpm store (cache)
+.pnpm-store/
+
+# Optional: If you add a dist/ or build/ folder later
+dist/
+build/
