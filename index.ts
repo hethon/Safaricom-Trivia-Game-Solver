@@ -72,7 +72,7 @@ const server = http.createServer(async (req, res) => {
     });
   } else {
     res.writeHead(404, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify({ error: 'Route not found' + req.url }));
+    res.end(JSON.stringify({ error: `unknow route ${req.url}, or wrong HTTP method ${req.method}` }));
   }
 });
 
